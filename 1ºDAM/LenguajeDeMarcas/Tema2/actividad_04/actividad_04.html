@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Actividad 04 — Imágenes de fondo</title>
+        <meta name="description" content="Actividad 4: práctica con imágenes de fondo en CSS." />
+        <meta name="author" content="José Luis Vázquez Bustos" />
+        <meta name="keywords" content="HTML, CSS, background, imagen de fondo" />
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <main>
+        <h1>Actividad 04: Imágenes de fondo</h1>
+        <p><strong>Autor:</strong> José Luis Vázquez Bustos</p>
+
+        <section>
+                <p><strong>¿Puedes ver el color de fondo? ¿Puedes ver la imagen? Una de las dos no se ve… ¿Por qué?</strong><br>
+                Se ve la imagen y el color solo aparece donde la imagen es transparente o si no carga. La imagen se pinta por encima del color de fondo.</p>
+                <p><strong>¿Tiene sentido usar las dos propiedades simultáneamente?</strong><br>
+                Sí. <code>background-color</code> actúa como color de reserva (fallback) si la imagen tarda en cargar o falla, y también se ve en zonas transparentes.</p>
+                <p><strong>¿Qué propiedad se usa para que la imagen de fondo aparezca una sola vez sin repetirse?</strong><br>
+                <code>background-repeat: no-repeat;</code></p>
+
+                <p><strong>¿Con qué parámetros centramos la imagen (horizontal y vertical)?</strong><br>
+                <code>background-position: center center;</code> (equivalente a <code>50% 50%</code>).</p>
+
+                <p><strong>¿Qué sucede si la imagen está centrada y hacemos scroll?</strong><br>
+                Con <code>background-attachment: scroll;</code> (valor por defecto) la imagen se desplaza con el contenido; cambia la parte visible al hacer scroll.</p>
+
+                <p><strong>Modifica la imagen para que siempre se vea pese al scroll.</strong><br>
+                Usa <code>background-attachment: fixed;</code> y normalmente acompáñalo de <code>background-repeat: no-repeat;</code> y <code>background-size: cover;</code>.</p>
+            </section>
+
+            <p>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </p>
+        </main>
+    </body>
+</html>

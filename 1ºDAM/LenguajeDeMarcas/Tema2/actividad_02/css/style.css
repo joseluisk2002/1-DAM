@@ -1,0 +1,81 @@
+/* Párrafo 1 */
+.p1 {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    text-align: justify;
+    border-top: 3px dotted black;
+    border-bottom: 3px dotted black;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+/* Párrafo 2 */
+.p2 {
+    background-color: lightblue;
+    color: darkblue;
+    width: 75%;
+    text-align: right;
+    border-style: dashed;
+    border-width: 10px;
+    border-top-color: yellow;
+    border-right-color: brown;
+    border-bottom-color: black;
+    border-left-color: pink;
+    line-height: 25px;
+    margin: 60px;
+}
+
+/* Párrafo 3 */
+.p3 {
+    background-color: lightgray;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    border: 5px ridge black; /* borde 3D */
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Párrafo 4 */
+.p4 {
+    background-color: #555; /* gris oscuro */
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 25px 10px;
+}
+
+/* Estilos Span  */
+
+/* Span 1 */
+.resultado1 {
+    color: yellow;              /* texto amarillo */
+    background-color: red;      /* fondo rojo */
+    font-weight: bold;            /* negrita */
+}
+
+/* Span 2 */
+.resultado2 { 
+    color: purple;                         /* texto morado */
+    font-size: 20px;                         /* tamaño de letra más grande */
+    font-family: 'Courier New', monospace;   /* letra diferente */
+}
+
+/* Span 3 */
+.resultado3 {
+    background-color: pink;    /* fondo rosa */
+    color: black;              /* texto negro */
+    text-transform: uppercase;   /* convierte el texto a mayúsculas */
+}
+
+/* Span 4 */
+.Resultado4 {
+    color: orange;              /* texto naranja */
+    text-decoration: underline;   /* subrayado */
+    letter-spacing: 2px;          /* separa un poco las letras */
+}

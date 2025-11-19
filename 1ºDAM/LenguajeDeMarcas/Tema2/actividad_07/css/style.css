@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 42px;
+    background-color: #fafafa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+ul, ol {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.sin-estilo {
+    list-style-type: none;
+}
+
+.circulos {
+    list-style-type: circle;
+}
+
+.cuadrados {
+    list-style-type: square;
+}
+
+.cuadrado{
+    list-style: square;
+}
+.circulo-relleno{
+    list-style: disc;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;             
+    justify-content: center;  
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: black;
+}
